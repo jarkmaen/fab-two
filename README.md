@@ -12,7 +12,7 @@ graph LR
     Developer((Developer))
     User((User))
 
-    subgraph AWS [AWS EC2]
+    subgraph OCI ["Oracle Cloud (OCI)"]
         Deploy[deploy.sh]
 
         subgraph Docker [Docker]
@@ -55,7 +55,7 @@ graph LR
 - **Frontend:** React, Redux, Tailwind
 - **Backend:** Node.js, Express, REST API
 - **Database:** PostgreSQL
-- **Other:** TypeScript, AWS
+- **Other:** TypeScript, Oracle Cloud (OCI)
 
 ## Screenshots
 
