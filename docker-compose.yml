@@ -12,6 +12,7 @@ services:
       - PORT=${PORT}
       - POSTGRESQL_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:5432/${POSTGRES_DB}
     image: fab-two
+    restart: always
   db:
     environment:
       - POSTGRES_DB=${POSTGRES_DB}
